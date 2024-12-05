@@ -1,0 +1,15 @@
+{
+  "database_name": "tienda_online",
+  "collections": [
+    {
+      "name": "productos",
+      "fields": {
+        "nombre": "string",
+        "descripcion": "string",
+        "precio": "decimal",
+        "categoria": "int",
+        "stock": "int"
+      }
+    }
+  ]
+}
