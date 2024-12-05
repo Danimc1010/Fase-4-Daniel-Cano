@@ -24,7 +24,7 @@ En este proyecto se utilizará Apache HBase para almacenar y consultar los datos
 
 ## Conjunto de Datos
 
-El conjunto de datos utilizado es el de **Beneficiarios_familias_accion**, el cual contiene información sobre los beneficiarios de "Más Familias en Acción", como nombres, identificadores, ubicación, entre otros. 
+El conjunto de datos utilizado es el de **Beneficiarios_familias_accion**, el cual contiene información sobre los beneficiarios de "Más Familias en Acción", como nombres, identificadores, ubicación, entre otros.
 
 ## Estructura de la Tabla en HBase
 
