@@ -1,5 +1,4 @@
 Contiene el dataset de beneficiarios en formato CSV, por ejemplo:
-
 nombre,direccion,municipio,estrato,ingreso_mensual,estado,fecha_registro
 Juan Pérez,Calle 1,Soacha,3,1000000,Activo,2023-01-01
 María López,Calle 2,Bogotá,2,1200000,Activo,2023-01-10
