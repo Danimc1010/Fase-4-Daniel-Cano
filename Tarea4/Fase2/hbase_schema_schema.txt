@@ -1,0 +1,13 @@
+Describe la estructura de la tabla HBase:
+Tabla: beneficiarios
+
+Familias de Columnas:
+1. informacion_basica:
+   - Columnas: nombre, direccion, municipio, estrato
+2. ingreso_familiar:
+   - Columnas: ingreso_mensual
+3. estado_familia:
+   - Columnas: estado, fecha_registro
+
+Clave primaria:
+- ID Beneficiario
