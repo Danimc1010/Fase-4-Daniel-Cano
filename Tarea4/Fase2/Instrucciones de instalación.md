@@ -8,8 +8,9 @@ Configura las variables de entorno y las configuraciones necesarias en los archi
 Instala la librería happybase para interactuar con HBase:
 
 bash
-Copiar código
+
 pip install happybase
+
 4. Cargar el Conjunto de Datos a HBase
 Para cargar el conjunto de datos, utiliza el script cargar_datos.py, que carga el archivo CSV en la tabla de HBase.
 
