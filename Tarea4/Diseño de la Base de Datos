@@ -1,3 +1,4 @@
+#Este archivo describe el esquema de la base de datos en formato JSON.
 {
   "database_name": "tienda_online",
   "collections": [
