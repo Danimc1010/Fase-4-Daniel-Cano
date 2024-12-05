@@ -1,25 +1,26 @@
 fase-2-apache-hbase/
 │
 ├── README.md
-│   (Contiene la descripción completa del proyecto, los pasos de configuración y uso de los scripts)
+│   (Descripción completa del proyecto, incluyendo objetivos, pasos de configuración y uso de los scripts)
 │
 ├── scripts/
 │   ├── test_hbase.py
-│   │   (Script para la conexión a HBase y creación de la tabla si no existe)
+│   │   (Verifica la conexión a HBase y crea la tabla si no existe)
 │   │
 │   ├── cargar_datos.py
-│   │   (Script para cargar los datos del CSV a HBase)
+│   │   (Carga los datos del archivo CSV sobre beneficiarios en HBase)
 │   │
 │   └── consultas.py
-│       (Script para realizar consultas sobre los datos cargados en HBase)
+│       (Realiza consultas analíticas sobre los datos cargados)
 │
 ├── data/
 │   └── Beneficiarios_familias_accion.csv
-│       (El conjunto de datos utilizado en el proyecto)
+│       (El conjunto de datos sobre beneficiarios del programa Más Familias en Acción)
 │
 ├── hbase_schema/
 │   └── schema.txt
-│       (Descripción detallada de la estructura de la tabla HBase, como las familias de columnas y los tipos de datos)
+│       (Descripción detallada de la tabla en HBase: claves, familias de columnas y tipos de datos)
 │
 └── requirements.txt
-    (Lista de dependencias para el proyecto, como `happybase` y `pandas`)
+    (Lista de dependencias necesarias, como `happybase` y `pandas`)
+
